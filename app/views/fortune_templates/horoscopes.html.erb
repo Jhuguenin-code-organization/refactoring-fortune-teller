@@ -1,0 +1,16 @@
+<h1>
+<%=@sign%>
+</h1>
+<div>
+<%=@horoscope%>
+</div>
+
+<p>Your lucky numbers for today are:</p>
+
+<ul>
+  <% @array_of_numbers.each do |num| %>
+    <li>
+      <%= num %>
+    </li>
+  <% end %>
+</ul>
