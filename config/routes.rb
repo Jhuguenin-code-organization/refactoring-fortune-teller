@@ -53,6 +53,6 @@ Rails.application.routes.draw do
   #get("/roll/3/20", { :controller => "dice", :action => "three_twenty" })
  
   get("/roll/:number_of_dice/:how_many_sides", { :controller => "dice", :action => "infinity_and_beyond" })
-
+  
 
 end
